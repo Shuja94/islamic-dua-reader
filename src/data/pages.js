@@ -1,11 +1,11 @@
 const categories = [
-  "Cover",
-  "Forgiveness Duas",
-  "Protection Duas",
-  "Rizq Duas",
-  "Family Duas",
-  "Prayer Duas",
-  "Quran Duas"
+  "ކަވަރ",
+  "ފާފަ ފުއްސެވުމުގެ ދުޢާ",
+  "ޙިމާޔަތުގެ ދުޢާ",
+  "ރިޒްޤުގެ ދުޢާ",
+  "އާއިލާއާ ބެހޭ ދުޢާ",
+  "ނަމާދާ ބެހޭ ދުޢާ",
+  "ޤުރްއާނުގެ ދުޢާ",
 ];
 
 const categoryByPage = (page) => {
@@ -23,13 +23,14 @@ const pad = (page) => String(page).padStart(3, "0");
 export const pages = Array.from({ length: 42 }, (_, index) => {
   const page = index + 1;
   const category = categoryByPage(page);
+
   return {
     page,
-    title: page === 1 ? "Cover" : `${category} - Page ${page}`,
+    title: page === 1 ? "ކަވަރ" : `${category} - ޞަފްޙާ ${page}`,
     category,
     imageWebp: `/pages/page-${pad(page)}.webp`,
     imageJpg: `/pages/page-${pad(page)}.jpg`,
-    audio: `/audio/page-${pad(page)}.mp3`
+    audio: `/audio/page-${pad(page)}.mp3`,
   };
 });
 
