@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1260" role="img" aria-labelledby="title desc">
+  <title id="title">Islamic Dua Reader cover</title>
+  <desc id="desc">A soft cream and gold Islamic book cover placeholder.</desc>
+  <rect width="900" height="1260" fill="#fff8e9"/>
+  <rect x="52" y="52" width="796" height="1156" rx="22" fill="none" stroke="#b6842f" stroke-width="10"/>
+  <rect x="94" y="94" width="712" height="1072" rx="18" fill="none" stroke="#286053" stroke-width="4"/>
+  <path d="M450 266c72 84 188 84 260 0 0 138-58 230-130 230s-130-92-130-230Z" fill="#286053" opacity=".16"/>
+  <path d="M320 266c72 84 188 84 260 0 0 138-58 230-130 230s-130-92-130-230Z" fill="#b6842f" opacity=".22"/>
+  <text x="450" y="555" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="700" fill="#332514">Islamic Dua Reader</text>
+  <text x="450" y="638" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" fill="#286053">ދުޢާ ފޮތް</text>
+  <line x1="250" y1="724" x2="650" y2="724" stroke="#b6842f" stroke-width="8" stroke-linecap="round"/>
+  <text x="450" y="830" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="32" fill="#332514">Dhivehi and Arabic Page Reader</text>
+</svg>

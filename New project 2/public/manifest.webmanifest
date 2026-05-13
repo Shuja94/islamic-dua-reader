@@ -1,0 +1,17 @@
+{
+  "name": "Islamic Dua Reader",
+  "short_name": "Dua Reader",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7edd9",
+  "theme_color": "#b6842f",
+  "description": "Accessible Islamic book reader using optimized page images.",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
